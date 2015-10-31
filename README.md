@@ -17,12 +17,13 @@ Use [Drupal Console](https://github.com/hechoendrupal/DrupalConsole) in a Docker
 
 1. Run:
 
-        docker run --rm -it drupalconsole $rest_of_drupal_console_command
+        cd /path/to/drupal/root
+        docker run --rm -it -v="$pwd:/var/www/html" drupalconsole $rest_of_drupal_console_command
 
     for example,
 
-        docker run --rm -it drupalconsole list
-        docker run --rm -it drupalconsole generate:module
+        docker run --rm -it -v="$pwd:/var/www/html" drupalconsole list
+        docker run --rm -it -v="$pwd:/var/www/html" drupalconsole generate:module
 
 # License
 
