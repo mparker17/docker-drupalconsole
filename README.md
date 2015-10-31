@@ -1,6 +1,6 @@
 # mparker17/docker-drupalconsole
 
-Makes [Drupal Console](https://github.com/hechoendrupal/DrupalConsole) available for use in docker containers.
+Use [Drupal Console](https://github.com/hechoendrupal/DrupalConsole) in a Docker container.
 
 # Install
 
